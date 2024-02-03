@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+a:link,
+a:active,
+a:visited,
+a:hover {
+  color: #3f51b5;
+}
+
+.outerdiv {
+  /* width: 100%;
+  min-height: 100vh;
+  background: #edf2f8; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerdiv {
+  transform: scale(0.9);
+  margin: 1rem;
+  display: flex;
+  gap: 30px;
+}
+.eachdiv {
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 5px 5px 20px #6d6b6b6b;
+  color: white;
+  background: #733fc8;
+  max-width: 50%;
+}
+.productdetails {
+  display: flex;
+}
+
+.detbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.detbox p {
+  margin: 0;
+}
+.detbox .name {
+  color: hsl(0, 0%, 81%);
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+  font-weight: 600;
+}
+.detbox .name.dark {
+  color: #49505a;
+}
+.detbox .designation {
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+  font-size: 0.8rem;
+}
+.detbox .designation.dark {
+  color: #49505a;
+}
+.review h4 {
+  font-size: 1.4rem;
+  color: #f3deff;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+.review.dark h4 {
+  color: #4b5258;
+}
+.review p {
+  font-size: 0.95rem;
+  color: #f3deff;
+  font-weight: 500;
+  opacity: 50%;
+  line-height: 1.5;
+}
+.review.dark p {
+  color: #0e0e0e;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: brown;
+}
+
+.remove {
+  display: flex;
+  justify-content: center;
+}

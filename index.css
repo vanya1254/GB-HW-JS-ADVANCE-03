@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #334;
+  overflow: hidden;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.fb-form {
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translateY(-50%) translateX(-50%);
+}
+h2 {
+  text-align: center;
+  font-size: 1.4em;
+}
+input,
+.product-option {
+  margin: 15px 0;
+  width: 300px;
+}
+#product {
+  width: 164px;
+}
+input[type="submit"] {
+  margin-top: 0;
+}
+textarea {
+  height: 100px;
+  width: 300px;
+  resize: none;
+}
+a {
+  color: #733fc8;
+}

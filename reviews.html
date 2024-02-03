@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="review.css">
+    <title>Reviews</title>
+</head>
+
+<body>
+    <div class="outerdiv">
+        <form action="">
+            <div class="product-option">
+                <label>
+                    Choose a product:
+                    <select id="product">
+                        <option value="phone">Phone</option>
+                        <option value="chair">Chair</option>
+                        <option value="desk">Desk</option>
+                        <option value="bottle">Bottle</option>
+                    </select>
+                </label>
+            </div>
+            <input id="choose-btn" class='form-control btn btn-primary' type='button' value="Choose">
+        </form>
+    </div>
+
+    <div id="empty" class="empty"></div>
+    <div class='innerdiv'>
+        <template id="review-template">
+            <div class="eachdiv">
+                <div class="productdetails">
+                    <div class="detbox">
+                        <p class="product"></p>
+                    </div>
+                </div>
+                <div class="review">
+                    <p class="review-content"></p>
+                </div>
+                <div class="remove">
+                    <button id="remove-btn">X</button>
+                </div>
+            </div>
+        </template>
+    </div>
+</body>
+
+</html>
